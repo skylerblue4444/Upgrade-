@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1780207856561,
+      "tag": "0000_handy_black_bolt",
+      "breakpoints": true
+    }
+  ]
+}

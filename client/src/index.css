@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --border: #e5e7eb;
+  --card: #ffffff;
+  --gold: #FFD700;
+  --gold-hover: #FFE55C;
+}
+
+[class*="dark"] {
+  --border: #374151;
+  --card: #1f2937;
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.gold-border {
+  border-color: var(--gold);
+}
+
+.luxury-card {
+  background-color: var(--card);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.luxury-button {
+  padding: 0.5rem 1rem;
+  background-color: var(--gold);
+  color: black;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.luxury-button:hover {
+  background-color: var(--gold-hover);
+}
